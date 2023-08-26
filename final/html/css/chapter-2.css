@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+.navbar{
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    
+}
+
+.logo{
+
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.link{
+    color: black;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    background-size: cover;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: rgb(5, 95, 5);
+}
+.content{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.shape{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center; 
+}

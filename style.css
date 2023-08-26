@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* margin: 0px 3px;
+    padding: 0px; */
+    font-family: helvetica;
+}
+.boxWrap{
+    max-width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #F1F3FF;
+}
+.navbarMe{
+    
+    /* height: 60px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    gap: 1rem;
+    
+}
+
+
+ .link{
+    font-size: 16px;
+    color: black;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+ }
+ .link a{
+    color: black;
+    text-decoration: none; 
+    
+ }
+
+
+.blockHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    /* width: 100%;
+    display: flex;
+    padding: 0px 5rem; */
+}
+
+.sectionKiri{
+    flex: 1;
+    width: 100%; 
+    /* margin-left: 3rem; */
+    /* padding: 3rem 4rem 3rem 0px;  */
+} 
+.sectionKiri h1{
+    color: #000;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 150%
+}
+.sectionKiri p{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    margin: 1rem 0;
+    max-width: 80%;
+}
+.mulai, .register, .mulai2{
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.200rem;
+    background:  #5CB85F;
+    color:  #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border: none;
+    /* font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-color: rgb(27, 216, 27);
+    outline: auto;
+    border-radius: 5px;
+    padding: 7px 15px;  */
+}
+.sectionKanan{
+    flex: 1;
+    max-width: 100%;
+    
+    /* width: 44rem;
+    height: 25.4375rem; */
+    /* width: 46.5%; */
+
+    /* position: relative; */
+    /* max-width: 100%;
+    display: flex;
+    justify-content: right; */
+    /* position: absolute;
+    right: 0; */
+    /* width: 100%;
+    width: 704px;
+    height: 407px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 0px;*/ 
+}
+.sectionKanan img{
+    max-width: 125%;
+    
+}
+
+.blockBest{
+    display: flex;
+    background-size: auto;
+    margin: 6rem 0;
+    /* padding: 6rem ; */
+    /* padding: 0px 5rem; */
+    /* gap: 50px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionKiriBest{
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0 2rem;
+    /* padding: 3rem; */
+ 
+    
+}
+.sectionKananBest h1{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+.sectionKananBest p{
+    color: #000;
+    font-size:1rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    margin: 1rem 0;
+}
+
+.sectionKananBest{
+    flex: 1;
+    max-width: 100%;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 3rem;
+    /* padding: 3rem 0; */
+    /* padding: 3rem 4rem 3rem 0px; */
+    justify-content: start;
+    align-items: center;
+}
+
+.centang_item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+
+    
+}
+.blockWhyUs h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    margin: 0;
+}
+.blockWhyUs p{
+    margin: 0.5rem 0 2rem 0;
+}   
+
+.whyWrap{
+    display: flex;
+    /* width:100% ; */
+    justify-content: space-between;
+    gap: 2rem;
+    /* display: inline-flex; */
+    align-items: flex-start;
+}
+
+.why_item{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: left; 
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D0D0D0;
+    margin: 0;
+    /* flex: 1; */
+    /* font-size: 12px;
+    outline: auto;
+    outline-color: rgb(211, 201, 201);
+    width: 15rem;
+    height: 10rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; */
+       
+}
+.why_item img{
+    width: 2rem;
+    height: 2rem;
+}
+.why_item h1{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    /* line-height: 1.5rem;  */
+    
+}
+.why_item p{
+    font-size: 14px;
+    margin: 0;
+    /* width: 13.75rem; */
+}
+.blockTestimonial{
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.blockTestimonial h1{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}  
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockTestimonial p{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    margin: 1rem 0;
+    /* font-size: 2rem;
+    margin: 1rem 0 2.5rem 0; */
+}
+
+.john {
+    font-weight: 600;
+}
+.btnWrap{
+    /* background-color: red; */
+    /* height: 5rem; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+
+}
+.btnPrevKiri{
+    background: rgb(173, 169, 169);
+    border-radius: 100%;
+    height: 30px !important;
+    width: 30px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline:  #080808 !important;
+}
+.btnPrevKanan{
+    background:  #53c256;;
+    border-radius: 100%;
+    height: 30px !important;
+    width: 30px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .iconKanan{
+    color: rgb(90, 1, 255);
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.iconKiri{
+    color: black !important;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} */
+.blockSewa{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #0D28A6;
+    font-size: 16px;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+} 
+
+.slide{
+    display: flex;
+    border-radius: 0.5rem;
+    background: #F1F3FF ;
+    padding: 2.5rem 2rem;
+    gap: 1.5rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    text-align: left;
+}
+.blockFaq{
+    margin-top: 5rem;
+    display: flex;
+    gap: 1rem; 
+}
+
+
+.textFaq, .accordion{
+    flex: 1;
+}
+.accordion-item {
+    margin-bottom: 1rem;
+}
+/* .collapsed{
+    grid-template-columns: 1rem;
+    background: #0D28A6;
+    position: relative;
+} */
+.blockFooter{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 0.9rem;
+    
+}
+.alamat{
+    font-weight: 200;
+    line-height: 1.25rem;
+    gap: 1rem;
+}
+.menu{
+    font-weight: 200;
+    line-height: 1.25rem; 
+    gap: 1rem;
+}
+.gambarConnect{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.navbar{
+    display: none;
+    background: #F1F3FF;
+}
+.register2{
+    width: 5rem;
+    height: 2.25rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.200rem;
+    background:  #5CB85F;
+    color:  #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border: none;
+}
+
+.nav-item{
+    gap: 1rem;
+}
+.navLink{
+    color: #000;
+    
+}
+.tittleBcr h5{
+    font-size: 0.875rem;
+    font-weight: 900;
+    line-height: 1.25rem;
+}
+
+.bcrBody{
+    width: 50% !important;
+}
+@media screen and (max-width: 360px){
+    .navbar{
+       display: flex;
+    }
+}
+@media screen and (max-width: 360px){
+    .body{
+       display: flex;
+       justify-content: center;
+    }
+}
+@media screen and (max-width: 360px){
+    .navbarMe{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px){
+    .blockHeader{
+        flex-direction: column;
+        background: #F1F3FF;
+        max-width: 100%;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    .sectionKanan img{
+        flex-direction: column;
+        background: #F1F3FF;
+        max-width: 112%;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .blockBest{
+        flex-direction: column;
+        display: flex;
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 360px){
+    .sectionKiriBest img{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    .sectionKananBest h1{
+        color: #000;
+        font-size: 1.3rem;
+        font-weight: 770;
+        line-height: 2.25rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    .blockWhyUs{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 360px){
+    .whyWrap{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    .blockTestimonial{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* scale: 0.5px; */
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+    .slide{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .text img{
+        
+        align-self: center;
+    }
+    .blockFaq{
+        flex-direction: column;
+        width: 100%;
+    }
+    .blockFooter{
+        flex-direction: column;
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+

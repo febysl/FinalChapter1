@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: ;
+}
+.navbar{
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    
+}
+.logo{
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .link{
+    
+    color: black;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.Register{
+
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-color: rgb(27, 216, 27);
+    border-radius: 5px;
+    
+}
+.hal1{
+
+}
